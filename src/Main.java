@@ -3,7 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
-
+        task4();
     }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
@@ -52,6 +52,18 @@ public class Main {
         }
         double mediumCash = sum / arr.length;
         System.out.println("Средняя выплата в месяц составляет " + mediumCash);
+    }
+
+    public static void task4() {
+        System.out.println("Задача 4");
+        char[] reversFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reversFullName.length - 1; i >= 0; i--) {
+
+            System.out.print(reversFullName[i]);
+
+        }
+
+
     }
 
 }
